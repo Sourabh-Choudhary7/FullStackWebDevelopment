@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  height: 100vh;
+  background-color: aquamarine;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+.screenStyle {
+  font-size: 40px;
+  text-align: center;
+  display: none;
+}
+
+/* Media query for big screen */
+@media screen and (max-width: 1440px) {
+  .bigScreen {
+    display: block;
+  }
+
+  body {
+    background-color: forestgreen;
+  }
+  
+}
+
+/* Media query for laptop screen */
+@media screen and (max-width: 1024px) {
+  .laptopScreen {
+    display: block;
+  }
+  .bigScreen {
+    display: none;
+  }
+
+  body {
+    background-color: darkgoldenrod;
+  }
+  
+}
+
+/* Media query for tablet screen */
+@media screen and (max-width: 768px) {
+  .tabletScreen {
+    display: block;
+  }
+  .bigScreen, .laptopScreen {
+    display: none;
+  }
+
+  body {
+    background-color: aqua;
+  }
+  
+}
+
+/* Media query for mobile screen */
+@media screen and (max-width: 425px) {
+  .mobileScreen {
+    display: block;
+  }
+
+  .bigScreen, .laptopScreen, .tabletScreen  {
+    display: none;
+  }
+
+  body {
+    background-color: crimson;
+  }
+  
+}
