@@ -1,0 +1,436 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Manrope";
+
+}
+
+/* design header parts */
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("./assets/mainBackground.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 120vh;
+    background-size: cover;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 1.5%;
+    margin-bottom: 10%;
+
+}
+
+.logo img {
+    width: 80%;
+}
+
+.right-nav-bar ul {
+    display: flex;
+    padding-right: 50px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.right-nav-bar ul li:hover {
+    color: #6663e9;
+    cursor: pointer;
+}
+
+.right-nav-bar ul li {
+    padding-right: 50px;
+    list-style: none;
+}
+
+.hr {
+    height: 2px;
+    width: 85vw;
+    background-color: white;
+    position: absolute;
+    top: 15%;
+    left: 5%
+}
+
+.header-middle-center h1 {
+    color: white;
+    font-size: 75px;
+    margin-bottom: 30px;
+    margin-left: 11%;
+    font-weight: 600;
+}
+
+.header-middle-center p {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-left: 11%;
+    font-weight: 500;
+    width: 410px;
+}
+
+.btn {
+    background: #6663e9;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 30px;
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 20px;
+    margin-left: 11%;
+}
+
+.btn:hover {
+    color: #6663e9;
+    background: white;
+    cursor: pointer;
+}
+
+/* logo section design */
+.logo-items {
+
+    height: 150px;
+    width: 90vw;
+    background-color: rgb(255, 246, 246);
+    ;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 30px;
+    margin-left: 40px;
+    position: relative;
+    bottom: 100px;
+}
+
+.logo-items img {
+    width: 10%;
+}
+
+/* disigning 2nd section of real state web page card-items and card details*/
+
+.card-section h2 {
+    font-weight: 800;
+    font-size: 60px;
+    text-align: center;
+}
+
+.card img {
+    width: 366px;
+    height: 400px;
+    border-radius: 20px;
+}
+
+.card-box {
+    width: 326px;
+    height: 121px;
+    border-radius: 20px;
+    background: #ffffff;
+    box-shadow: 0px 4px 120px rgb(58 86 78 / 20%);
+    position: relative;
+    bottom: 115px;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20px;
+
+}
+
+.details h3 {
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.details p {
+    font-weight: 800;
+    font-size: 20px;
+    color: #6663e8;
+    text-shadow: 0px 4px 60px rgb(0 0 0 / 5%);
+}
+
+button {
+    background: #6663e9;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 30px;
+    color: #ffffff;
+}
+
+.card-box button {
+    font-weight: 800;
+    font-size: 15px;
+    width: 114px;
+    height: 52px;
+    border-radius: 50px;
+}
+
+.card-box button:hover {
+    cursor: pointer;
+    background-color: #5654d1;
+}
+
+.cards-items {
+    margin-top: 50px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* giving different margin top value to position cards */
+.cards-items div:nth-child(2) {
+    margin-top: 50px;
+}
+
+.cards-items div:nth-child(3) {
+    margin-top: 100px;
+}
+
+.cards-items div:nth-child(4) {
+    margin-top: 160px;
+}
+
+.cards-items div:nth-child(5) {
+    margin-top: 100px;
+}
+
+.cards-items div:nth-child(6) {
+    margin-top: 40px;
+}
+
+.cards-items div:nth-child(7) {
+    margin-top: 40px;
+}
+
+.cards-items div:nth-child(8) {
+    margin-top: 100px;
+}
+
+.cards-items div:nth-child(9) {
+    margin-top: 160px;
+}
+
+/* features content */
+.features-image {
+    width: 50%;
+}
+
+.features-image img:first-child {
+    width: 98%;
+
+}
+
+.features-image img:last-child {
+    position: relative;
+    width: 495px;
+    height: 430px;
+    border-radius: 51px;
+    bottom: 550px;
+    left: 110px;
+}
+
+.features-section {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+
+}
+
+.features {
+    margin-top: 10%;
+    width: 50%;
+}
+
+.features h1 {
+    font-weight: 800;
+    font-size: 60px;
+    letter-spacing: 0.01em;
+    margin-bottom: 30px;
+}
+
+.features p {
+    font-weight: 500;
+    font-size: 18px;
+    color: #585c65;
+    margin-bottom: 40px;
+    max-width: 80%;
+}
+
+.features button {
+    font-weight: 700;
+    padding: 15px 50px;
+    font-size: 20px;
+}
+
+.features button:hover {
+    cursor: pointer;
+    background-color: #5654d1;
+}
+
+.details2 {
+    margin-left: 5%;
+}
+
+.section2 img:first-child {
+    width: 650px;
+}
+
+.section2 img:last-child {
+    position: relative;
+    width: 371px;
+    height: 410px;
+    border-radius: 51px;
+    bottom: 555px;
+    left: 167px;
+}
+
+.margin-top-features {
+    margin-top: -342px;
+}
+
+/* designing newsletter subcription */
+.subscribe-news-letter {
+
+    margin: 10px 70px;
+    background: #6663e9;
+    box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.05);
+    border-radius: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 70px 0;
+    color: #ffffff;
+    text-align: center;
+    margin-top: -30%;
+}
+
+.subscribe-news-letter h1 {
+    font-weight: 800;
+    font-size: 60px;
+}
+
+.subscribe-news-letter p {
+    font-weight: 400;
+    font-size: 18px;
+    width: 55%;
+}
+
+/* designing the form */
+.subscribe-news-letter form {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.subscribe-news-letter form div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: #5654d1;
+    border-radius: 40px;
+    width: 468px;
+    height: 61px;
+    padding: 0 20px;
+}
+
+.subscribe-news-letter form input {
+    background-color: transparent;
+    border: 0.1px solid white;
+    border-radius: 50px;
+    padding: 12px 110px;
+}
+
+.subscribe-news-letter form button {
+    background: #ffffff;
+    box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.05);
+    border-radius: 40px;
+    width: 174px;
+    height: 61px;
+    color: #6663e9;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.subscribe-news-letter form button:hover {
+    color: #ffffff;
+    background-color: #3f3daf;
+    cursor: pointer;
+}
+
+/* designing the main footer */
+footer {
+
+    display: flex;
+    align-items: flex-start;
+    margin: 0 100px;
+    justify-content: space-between;
+    margin-bottom: 80px;
+    margin-top: 8%;
+}
+
+footer div:first-child {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+footer div:first-child img {
+    width: 150px;
+}
+
+footer div:first-child div img {
+    width: 45px;
+    height: 45px;
+    margin-right: 20px;
+}
+
+footer div:first-child p {
+    width: 323px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+/* designing the footer links content */
+.footer-links {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 120px;
+}
+
+.footer-links-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-links-content ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.footer-links-content ul li {
+    list-style: none;
+
+}
+
+.footer-links-content ul li:first-child {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.footer-links-content ul li {
+
+    margin-bottom: 25px;
+}
+
+/* Assignment Project 11th feb end */
