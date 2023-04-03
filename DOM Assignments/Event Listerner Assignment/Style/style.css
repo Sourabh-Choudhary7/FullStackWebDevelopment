@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#box {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5%;
+}
+
+.btn {
+    padding: 15px 20px;
+    background-color: #0275d8;
+    color: white;
+    border-radius: 32px;
+    border: none;
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 20px;
+
+}
+
+
+.btn:hover {
+    cursor: pointer;
+    background-color: #065091;
+}
+
+#KeyDisplay {
+    color: red;
+}
+
+#input-box {
+    font-size: 30px;
+}
+
+
+#container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #display {
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
